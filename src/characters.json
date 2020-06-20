@@ -1,66 +1,82 @@
 [
     {
         "id": 1,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/butters-stotch.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/butters-stotch.png",
+        "clicked": false
     },
     {
         "id": 2,
-        "image": "https://escapetheroom.com/south-park/wp-content/uploads/sites/24/2019/05/cartman.png"
+        "image": "https://escapetheroom.com/south-park/wp-content/uploads/sites/24/2019/05/cartman.png",
+        "clicked": false
     },
     {
         "id": 3,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/clyde-donovan.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/clyde-donovan.png",
+        "clicked": false
     },
     {
         "id": 4,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/craig-tucker.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/craig-tucker.png",
+        "clicked": false
     },
     {
         "id": 5,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/gary-harrison.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/gary-harrison.png",
+        "clicked": false
     },
     {
         "id": 6,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/jimmy-valmer.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/jimmy-valmer.png",
+        "clicked": false
     },
     {
         "id": 7,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/kenny-mccormick.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/kenny-mccormick.png",
+        "clicked": false
     },
     {
         "id": 8,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-broflovski.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-broflovski.png",
+        "clicked": false
     },
     {
         "id": 9,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/alter-egos/other-4th-graders-nathan-casual-outfit.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/alter-egos/other-4th-graders-nathan-casual-outfit.png",
+        "clicked": false
     },
     {
         "id": 10,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/adults/education-pc-principal.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/adults/education-pc-principal.png",
+        "clicked": false
     },
     {
         "id": 11,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/adults/sharon-marsh.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/adults/sharon-marsh.png",
+        "clicked": false
     },
     {
         "id": 12,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/adults/sheila-broflovski.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/adults/sheila-broflovski.png",
+        "clicked": false
     },
     {
         "id": 13,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/stan-marsh.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/stan-marsh.png",
+        "clicked": false
     },
     {
         "id": 14,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/non-human/towelie.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/non-human/towelie.png",
+        "clicked": false
     },
     {
         "id": 15,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/tweek-tweak.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/tweek-tweak.png",
+        "clicked": false
     },
     {
         "id": 16,
-        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/wendy-testaburger.png"
+        "image": "https://southparkstudios.mtvnimages.com/shared/characters/kids/wendy-testaburger.png",
+        "clicked": false
     }
 ]
