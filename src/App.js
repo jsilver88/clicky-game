@@ -17,6 +17,11 @@ class App extends Component {
   //   this.setState({ characters: this.flipImages(this.state.characters) });
   // }
 
+  resetGame = clicks => {
+    const resetGame = clicks.map(click => ({ ...click, clicked: false }));
+    return this.flipImages(resetGame);
+  }
+
   flipImages = characters => {
     let i = characters.length - 1;
     while (i > 0) {
@@ -39,6 +44,13 @@ class App extends Component {
     });
   };
 
+  wrongPick = data => {
+    this.setState({
+      data: this.resetGame(data),
+      score: 0
+    });
+  };
+
   handleClick = id => {
     let correctGuess = false;
     const newChar = this.state.characters.map(character => {
@@ -49,7 +61,7 @@ class App extends Component {
           correctGuess = true;
         }
       }
-      return newChar;
+      return newCharacter;
     });
     correctGuess ? this.rightPick(newChar) : this.wrongPick(newChar);
   };
