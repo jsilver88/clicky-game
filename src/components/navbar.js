@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Nav = ({ score, highScore, text }) => {
+const Nav = props => {
     return (
         <div className="navbar-fixed">
             <nav>
@@ -9,10 +9,10 @@ const Nav = ({ score, highScore, text }) => {
                         <a href="/">South Park Clicky Game</a>
                     </div>
                     <div className="col s4">
-                        <span>{text}</span>
+                        <span>Click a character to begin!</span>
                     </div>
                     <div className="col s4">
-                        <span>Score: {score} | High Score: {highScore}</span>
+                        <span>Score: {props.score} | High Score: {props.highScore}</span>
                     </div>
                 </div>
             </nav>
