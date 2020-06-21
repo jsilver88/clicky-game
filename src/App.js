@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './components/navbar';
 import Header from './components/Header';
 import Container from './components/Container';
+import Footer from './components/Footer';
 import CharImages from './components/CharImages';
 import characters from './characters.json';
 import './App.css';
@@ -87,6 +88,8 @@ class App extends Component {
             />
           ))}
         </Container>
+
+        <Footer />
 
 
       </>
