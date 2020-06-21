@@ -13,9 +13,9 @@ class App extends Component {
     highScore: 0
   };
 
-  // componentDidMount() {
-  //   this.setState({ characters: this.flipImages(this.state.characters) });
-  // }
+  componentDidMount() {
+    this.setState({ characters: this.flipImages(this.state.characters) });
+  }
 
   resetGame = clicks => {
     const resetGame = clicks.map(click => ({ ...click, clicked: false }));
@@ -29,6 +29,7 @@ class App extends Component {
       const k = characters[i];
       characters[i] = characters[j];
       characters[j] = k;
+      i--;
     }
     return characters;
   };
